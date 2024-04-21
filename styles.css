@@ -1,0 +1,97 @@
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+header h1 {
+  margin: 0;
+  color: #333;
+}
+
+header h2 {
+  margin-top: 10px;
+  color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .option-bar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .option-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .option-bar li {
+    float: left;
+  }
+  
+  .option-bar li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .option-bar li button:hover {
+    background-color: #555;
+    color: #ff0000;
+  }
+  
+  #info-display {
+    clear: both;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-top: 20px;
+    color: #555; 
+    }
+    
+  
+
+  .option-bar li button {
+    display: block;
+    color: #ffffff; /* Set the text color to white */
+    background-color: #4CAF50; /* Green background for the buttons */
+    padding: 14px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color and background */
+  }
+  
+  .option-bar li button:hover {
+    background-color: #66bb6a; /* Lighter green on hover */
+    color: #000000; /* Change text color on hover if needed */
+  }
+  
+  #info-display h2 {
+    color: #4CAF50; /* This will make headings green */
+  }
+  
+  #info-display p {
+    color: #333; /* This will make paragraph text dark grey */
+  }
+  
+  #quiz-container h2 {
+    color: #4CAF50; /* Green color for the quiz title */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question {
+    font-size: 1.5em; /* Larger text for the question */
+    font-weight: bold;
+    margin-bottom: 20px; /* More space below the question */
+  }
+  
